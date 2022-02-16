@@ -1,0 +1,353 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.9f1 (921b45a28ab6) revision 9575237'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 16312 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.2.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/Projects/UnityProjects/TowerDefense
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+51192
+Successfully changed project path to: D:/Projects/UnityProjects/TowerDefense
+D:/Projects/UnityProjects/TowerDefense
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 99.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.9f1 (921b45a28ab6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/UnityProjects/TowerDefense/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5992 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004048 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 103.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1020ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (699ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (287ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005965 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\UnityProjects\TowerDefense\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\UnityProjects\TowerDefense\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 100.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.754 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2755ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (2552ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (524ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1836ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (1530ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5233 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 5685.
+Memory consumption went from 207.4 MB to 206.6 MB.
+Total: 5.004600 ms (FindLiveObjects: 0.439800 ms CreateObjectMapping: 0.446200 ms MarkObjects: 3.718000 ms  DeleteObjects: 0.399400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34790.062274 seconds.
+  path: Assets/Materials/PBRs/glossy-stylized-blocks
+  artifactKey: Guid(b782567ea4ea29741a9ab84f4dcb059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/glossy-stylized-blocks using Guid(b782567ea4ea29741a9ab84f4dcb059e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f693b1be7ce6a4b76101fad2174bc7b') in 0.013829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.660162 seconds.
+  path: Assets/Materials/PBRs/glossy-stylized-blocks/glossy-stylized-blocks_albedo.png
+  artifactKey: Guid(3e44086505b87ac44b88bae1666fc6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/glossy-stylized-blocks/glossy-stylized-blocks_albedo.png using Guid(3e44086505b87ac44b88bae1666fc6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3dbca7ac1080472ee195b44d299b6a4') in 0.269938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Materials/PBRs/glossy-stylized-blocks/glossy-stylized-blocks_height.png
+  artifactKey: Guid(ebe63c04e4db76f4db467dbf5693227c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/glossy-stylized-blocks/glossy-stylized-blocks_height.png using Guid(ebe63c04e4db76f4db467dbf5693227c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a25b5558a6e710e506da1c1f89e060') in 0.025587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Materials/PBRs/glossy-stylized-blocks/glossy-stylized-blocks_metallic.psd
+  artifactKey: Guid(b74684e3ca8c1f442b2b2ff4d3d39ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/glossy-stylized-blocks/glossy-stylized-blocks_metallic.psd using Guid(b74684e3ca8c1f442b2b2ff4d3d39ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1f8caff6cce21fac2d658e25a39f8e') in 0.030667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.017600 seconds.
+  path: Assets/Materials/PBRs/grime-alley-brick
+  artifactKey: Guid(6d9ee0fa86ffef64297e7a98f6f40053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/grime-alley-brick using Guid(6d9ee0fa86ffef64297e7a98f6f40053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b1e5ef157e5bd60fb5bf09349b85ff') in 0.007170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.079697 seconds.
+  path: Assets/Materials/PBRs/grime-alley-brick/grime-alley-bricks_2_albedo.png
+  artifactKey: Guid(fae9b757d6f7c584f9e968c85882fb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/grime-alley-brick/grime-alley-bricks_2_albedo.png using Guid(fae9b757d6f7c584f9e968c85882fb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ad53c7421ed9dd010fe8e92262d5c1') in 0.028258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/PBRs/grime-alley-brick/grime-alley-bricks_2_normal-ogl.png
+  artifactKey: Guid(2eeb6faafe41dc14080c7fd14691cc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/grime-alley-brick/grime-alley-bricks_2_normal-ogl.png using Guid(2eeb6faafe41dc14080c7fd14691cc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3d73e6bd3a5c583864117e1974a85f') in 0.078635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.699056 seconds.
+  path: Assets/Materials/PBRs/glossy-stylized-blocks/glossy-stylized-blocks.mat
+  artifactKey: Guid(c24c581ccfd2fd9438127dabb10d2438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/glossy-stylized-blocks/glossy-stylized-blocks.mat using Guid(c24c581ccfd2fd9438127dabb10d2438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1804c307ab5edc2f754f1c72984b145b') in 0.557446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.342074 seconds.
+  path: Assets/Materials/PBRs/grime-alley-brick/grime-alley-brick.mat
+  artifactKey: Guid(fab0caed3834b004590d083233a4b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/grime-alley-brick/grime-alley-brick.mat using Guid(fab0caed3834b004590d083233a4b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af4a210f290f18179bd5c631ce38b5a') in 0.014264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.750203 seconds.
+  path: Assets/Materials/PBRs/grime-alley-brick/grime-alley-bricks_2_normal-ogl.png
+  artifactKey: Guid(2eeb6faafe41dc14080c7fd14691cc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/grime-alley-brick/grime-alley-bricks_2_normal-ogl.png using Guid(2eeb6faafe41dc14080c7fd14691cc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4d973b7c2691c7543a8201fd1ad251') in 0.021883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 141.033541 seconds.
+  path: Assets/Materials/PBRs/grime-alley-brick/grime-alley-brick.mat
+  artifactKey: Guid(fab0caed3834b004590d083233a4b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/grime-alley-brick/grime-alley-brick.mat using Guid(fab0caed3834b004590d083233a4b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80541f91df5e54930b9cbb22385fc02e') in 1.796442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.039036 seconds.
+  path: Assets/Materials/PBRs/glossy-stylized-blocks/glossy-stylized-blocks_normal-ogl.png
+  artifactKey: Guid(95b9fb01b04770545a13d0db05ee43b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/glossy-stylized-blocks/glossy-stylized-blocks_normal-ogl.png using Guid(95b9fb01b04770545a13d0db05ee43b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa008dbf8f9d8444884b2b3ed6ec5709') in 0.019395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.176589 seconds.
+  path: Assets/Materials/PBRs/stonework-wall
+  artifactKey: Guid(3ad7e7625e4146647a4d778e70efd0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/stonework-wall using Guid(3ad7e7625e4146647a4d778e70efd0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1787967deb3126c443397ad8f0985494') in 0.007453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.461043 seconds.
+  path: Assets/Materials/PBRs/stonework-wall/stonework-wall-albedo.png
+  artifactKey: Guid(877c9b0c11ecbad41953321ed2110216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/stonework-wall/stonework-wall-albedo.png using Guid(877c9b0c11ecbad41953321ed2110216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdc0d487e6433c7c609e50f062f4def') in 0.019184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Materials/PBRs/stonework-wall/stonework-wall-normal-ogl.png
+  artifactKey: Guid(c403e298e899d0c4caa1592cb2253efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/stonework-wall/stonework-wall-normal-ogl.png using Guid(c403e298e899d0c4caa1592cb2253efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b59ee5ba8a0a3885cb7634ed82fc1f7') in 0.018057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Materials/PBRs/stonework-wall/stonework-wall-height.png
+  artifactKey: Guid(ebdc4318b054c634c9f22ec2fcdcea60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/stonework-wall/stonework-wall-height.png using Guid(ebdc4318b054c634c9f22ec2fcdcea60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7ef2da45ea48039f60a82b8a3bf505') in 0.016293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.575258 seconds.
+  path: Assets/Materials/PBRs/stonework-wall/stonework-wall.mat
+  artifactKey: Guid(ffc4663841017784b89cb150da3f9b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/stonework-wall/stonework-wall.mat using Guid(ffc4663841017784b89cb150da3f9b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c533006c242aefd914b4e6abc0aa1f') in 0.014667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.343929 seconds.
+  path: Assets/Materials/PBRs/stonework-wall/stonework-wall-normal-ogl.png
+  artifactKey: Guid(c403e298e899d0c4caa1592cb2253efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PBRs/stonework-wall/stonework-wall-normal-ogl.png using Guid(c403e298e899d0c4caa1592cb2253efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27973c5225101326076b1ca11eb7f458') in 0.020946 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006588 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\UnityProjects\TowerDefense\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\UnityProjects\TowerDefense\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.392 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1392ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1130ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (577ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (393ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5114 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (309.8 KB). Loaded Objects now: 5941.
+Memory consumption went from 240.8 MB to 240.5 MB.
+Total: 3.590500 ms (FindLiveObjects: 0.457100 ms CreateObjectMapping: 0.420500 ms MarkObjects: 2.642100 ms  DeleteObjects: 0.069700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006202 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Object.IsNativeObjectAlive (UnityEngine.Object o) [0x00001] in <898af1af8ccf490a906c218e1e74b230>:0 
+  at UnityEngine.Object.CompareBaseObjects (UnityEngine.Object lhs, UnityEngine.Object rhs) [0x0001d] in <898af1af8ccf490a906c218e1e74b230>:0 
+  at UnityEngine.Object.op_Implicit (UnityEngine.Object exists) [0x00001] in <898af1af8ccf490a906c218e1e74b230>:0 
+  at UnityEditor.PreviewRenderUtility.Cleanup () [0x0001f] in <091d339d138346aa90aa98b5607c9126>:0 
+  at UnityEditor.Texture3DPreview.OnDisable () [0x0000f] in <091d339d138346aa90aa98b5607c9126>:0 
+
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================
+Received signal SIGSEGV
+Obtained 2 stack frames
+RtlLookupFunctionEntry returned NULL function. Aborting stack walk.
+<Missing stacktrace information>
+
